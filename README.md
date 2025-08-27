@@ -46,4 +46,4 @@ Hosts Offline (Indisponíveis): 6
 - O script ignora a verificação SSL da sessão Zabbix.
 
 ## Licença
-Este projeto é utiliza licensa MIT
+Este projeto utiliza licensa MIT
