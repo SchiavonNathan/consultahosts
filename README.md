@@ -25,6 +25,21 @@ Execute o script principal:
 ```bash
 python main.py
 ```
+Exemplo de retorno:
+```bash
+--- Estatísticas Gerais ---
+Total de Hosts Cadastrados: 194
+Hosts Online (Disponíveis): 188
+Hosts Offline (Indisponíveis): 6
+
+--- Detalhes por Grupo ---
+- Grupo1 (Total: 100)
+  Online:  98
+  Offline: 2
+- Grupo2 (Total: 94)
+  Online:  90
+  Offline: 4
+```
 
 ## Observações
 - Certifique-se de que o arquivo `.env` está correto e na mesma pasta do script.
