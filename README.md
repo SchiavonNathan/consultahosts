@@ -1,5 +1,5 @@
-# ConsultaHosts
-
+# Consulta Hosts Zabbix
+ 
 Este projeto realiza a consulta de estatísticas de hosts cadastrados em um servidor Zabbix via API.
 
 ## Funcionalidades
