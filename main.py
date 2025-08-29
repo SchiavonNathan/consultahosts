@@ -1,3 +1,4 @@
+#Created by Nathan Schiavon-2025
 import os
 from pyzabbix import ZabbixAPI, ZabbixAPIException
 from dotenv import load_dotenv
@@ -19,8 +20,6 @@ def get_zabbix_stats(as_json=False):
         zapi = ZabbixAPI(ZABBIX_SERVER)
         zapi.session.verify = False
         zapi.login(ZABBIX_USER, ZABBIX_PASSWORD)
-        if not as_json:
-            print(f"Conectado à API do Zabbix na versão: {zapi.api_version()}\n")
 
         total_hosts = zapi.host.get(countOutput=True)
         online_hosts = zapi.host.get(filter={'available': 1}, countOutput=True)
